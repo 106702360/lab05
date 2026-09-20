@@ -1,0 +1,82 @@
+/*
+filename: lab04.css
+author: Afnan Al Sanim
+created: 10 September 2026
+last modified: 10 September 2026
+description: CSS styling for lab04
+*/
+
+/* universal font and color */
+* { 
+    font-family: calibri, sans-serif; 
+    color: #2F4F4F;
+}
+
+/* heading 1 style */
+h1 { 
+    color: purple; 
+    font-size: 2em; 
+    font-weight: bold; 
+}
+
+h2 { 
+    color: rgb(0,128,128); 
+    font-weight: bold; 
+    font-size: 1.5em; 
+}
+
+/* make aside and footer italic */
+aside, footer { 
+    font-style: italic; 
+}
+
+/* override headings font */
+h1, h2, h3 { 
+    font-family: arial, sans-serif; 
+}
+
+/* adding borders to table */
+table, th, td { 
+    border: 1px solid black; 
+}
+
+/* centering images id */
+#images {
+    text-align: center;
+}
+
+#headings-target {
+    color: red;
+}
+
+/* special characters class */
+.special {
+    color: darkorange;
+    font-weight: bold;
+}
+
+.right-align {
+    text-align: right;
+}
+
+/* nav bar links */
+nav a {
+    text-decoration: none;
+    padding: 0.2em 0.6em;
+    border: 4px solid #ccc;
+}
+
+/* square bullets for nested lists */
+ol ul {
+    list-style-type: square;
+}
+
+/* hover effects */
+aside:hover {
+    display: none;
+}
+
+nav a:hover {
+    background-color: lightblue;
+    border-color: darkblue;
+}
