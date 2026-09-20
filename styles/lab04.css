@@ -1,71 +1,41 @@
-/*
-filename: lab04.css
-author: Afnan Al Sanim
-created: 20 September 2026
-last modified: 20 September 2026
-description: Styling for lab04.html
-*/
-
-/* Universal selector */
 * { 
     font-family: calibri, sans-serif; 
     color: #2F4F4F;
 }
-
-/* Heading styles */
 h1 { 
     color: purple; 
     font-size: 2em; 
     font-weight: bold; 
 }
-
 h2 {
     color: rgb(0,128,128);
     font-weight: bold;
     font-size: 1.5em;
 }
-
 aside, footer { 
     font-style: italic; 
 }
-
 h1, h2, h3 {
     font-family: arial, sans-serif;
 }
-
-/* Table styling */
 table, th, td {
     border: 1px solid black;
 }
-
-#headings-title {
-    color: red;
-}
-
 .special {
     color: darkorange;
     font-weight: bold;
 }
-
-.right-align {
-    text-align: right;
-}
-
-/* Navigation links */
 nav a {
     text-decoration: none;
     padding: 0.2em 0.6em;
     border: 4px solid #ccc;
 }
-
 ol ul {
     list-style-type: square;
 }
-
 aside:hover {
     display: none;
 }
-
 nav a:hover {
     background-color: lightblue;
     border-color: darkblue;
